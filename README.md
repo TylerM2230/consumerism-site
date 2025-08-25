@@ -1,5 +1,7 @@
 # On Consumerism
 
+![On Consumerism](media/on-consumerism.png)
+
 A site exploring how consumer culture shapes our lives, featuring theory, practical impacts, and ways to think critically about it all.
 
 ## What's here
