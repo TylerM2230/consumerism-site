@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Books - Consumerism</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/x-icon" href="./media/favicon.ico" />
+  </head>
+  <body>
+    <nav class="navigation">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h1><a href="index.html" style="text-decoration: none; color: inherit;">On Consumerism</a></h1>
+        </div>
+        <ul class="nav-links">
+          <li><a href="index.html#intro">What is Consumerism?</a></li>
+          <li><a href="index.html#theory">Theory</a></li>
+          <li><a href="index.html#today">Today's Impact</a></li>
+          <li><a href="index.html#solutions">Solutions</a></li>
+          <li><a href="books.html" class="nav-active">Books</a></li>
+          <li><a href="quiz.html">Quiz</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="main-content">
+      <div class="content-section">
+        <h2 class="heading-primary">~ Reading List ~</h2>
+        <div class="image-container">
+          <img
+            src="media/read.png"
+            alt="Reading books"
+            class="section-image"
+          />
+        </div>
+        <section class="section">
+          <div class="content-text">
+            <p class="text-body mb-md">
+              Here are books that really changed how I think about economics and society. I've added 
+              my own notes about each one - what stuck with me and how hard they were to get through.
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- Search Section -->
+      <div class="content-section">
+        <div class="search-container">
+          <input 
+            type="text" 
+            id="book-search" 
+            placeholder="Search for books by title or author..." 
+            class="search-input"
+          />
+          <button id="search-btn" class="search-button">Search Library</button>
+        </div>
+      </div>
+
+      <!-- Loading State -->
+      <div id="loading" class="loading-state" style="display: none;">
+        <p class="text-body">Loading books...</p>
+      </div>
+
+      <!-- Book Sections -->
+      <div id="book-sections">
+        <!-- Critical Theory & Economics -->
+        <div class="content-section">
+          <h3 class="heading-secondary">The Classics That Started It All</h3>
+          <div id="critical-theory-books" class="books-grid">
+            <!-- Books will be dynamically loaded here -->
+          </div>
+        </div>
+
+        <!-- Modern Consumerism Critique -->
+        <div class="content-section">
+          <h3 class="heading-secondary">What's Wrong With How We Live Now</h3>
+          <div id="modern-critique-books" class="books-grid">
+            <!-- Books will be dynamically loaded here -->
+          </div>
+        </div>
+
+        <!-- Alternative Economics & Solutions -->
+        <div class="content-section">
+          <h3 class="heading-secondary">How Things Could Work Better</h3>
+          <div id="alternative-economics-books" class="books-grid">
+            <!-- Books will be dynamically loaded here -->
+          </div>
+        </div>
+
+        <!-- Environmental & Social Justice -->
+        <div class="content-section">
+          <h3 class="heading-secondary">Planet and People First</h3>
+          <div id="environmental-books" class="books-grid">
+            <!-- Books will be dynamically loaded here -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Search Results Section -->
+      <div id="search-results" class="content-section" style="display: none;">
+        <h3 class="heading-secondary">Search Results</h3>
+        <div id="search-results-grid" class="books-grid">
+          <!-- Search results will appear here -->
+        </div>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-card">
+          <p class="footer-text footer-text--primary">Reading List</p>
+          <p class="footer-text">
+            Books examining economic systems and consumer culture.
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="books.js"></script>
+  </body>
+</html>

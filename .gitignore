@@ -1,0 +1,16 @@
+# Development files
+TECHNICAL_IMPLEMENTATION.md
+CLAUDE.md
+*.tmp
+*.log
+.claude
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Node modules if added later
+node_modules/
+package-lock.json
