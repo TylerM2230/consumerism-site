@@ -16,7 +16,7 @@ This site explores how consumer culture shapes our lives, featuring theory, prac
 
 ## Running it
 
-Just open `index.html` in a browser or use the GitHub Pages Link.
+Just open `index.html` in a browser or use the [GitHub Pages Link](https://tylerm2230.github.io/consumerism-site/).
 
 The quiz saves results to localStorage and includes sharing functionality. Book recommendations link to OpenLibrary for more details.
 
