@@ -1,9 +1,7 @@
 # Development files
 TECHNICAL_IMPLEMENTATION.md
-CLAUDE.md
 *.tmp
 *.log
-.claude
 
 # IDE files
 .vscode/
@@ -11,6 +9,6 @@ CLAUDE.md
 *.swp
 *.swo
 
-# Node modules if added later
+# Node modules
 node_modules/
 package-lock.json
