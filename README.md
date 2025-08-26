@@ -1,8 +1,10 @@
 # On Consumerism
 
-![On Consumerism](media/on-consumerism.png)
+<p align="center">
+  <img src="media/on-consumerism.png" alt="On Consumerism"/>
+</p>
 
-A site exploring how consumer culture shapes our lives, featuring theory, practical impacts, and ways to think critically about it all.
+This site explores how consumer culture shapes our lives, featuring theory, practical impacts, and ways to think critically about the topic.
 
 ## What's here
 
